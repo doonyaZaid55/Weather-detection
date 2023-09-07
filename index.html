@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+
+
+
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+
+</head>
+<body>
+    
+
+
+
+
+    <nav class="navbar navbar-expand-lg d-flex justify-content-center align-items-center ">
+        <div class="container mb-1">
+          <a class="navbar-brand d-flex" href="#"> <img src="./images/logo (1).png" alt="logopicture">
+            <div class="logo-type">
+                <h6>Weather <br><span>tagline goes here</span></h6>
+            </div>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="#">Live Cameras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="#">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div class="home">
+      <div class="container w-75">
+        <form class="find-location">
+            <input type="text" placeholder="Find your location..." id="search">
+            <input type="button" value="Find" id="submit">
+        </form>
+     </div>
+      <div class="forecaste-container d-flex justify-content-center align-items-center flex-column">
+        <div class="card-group rounded-3" id="demo">
+          <div class="card">
+            <div class="forecast-header head1 d-flex justify-content-between align-items-center">
+              <h6>Thursday</h6>
+              <h6>17 August</h6>
+            </div>
+            <div class="card-body today-forecast">
+                <div class="country">
+                 <h6>cairo</h6>
+                </div>
+                <div class="degree d-flex justify-content-around">
+                  <h3>32<sup>o</sup>C</h3>
+                  <img src="./images/113.png" alt="sun">
+                </div>
+                <small>Sunny</small>
+                <div class="list d-flex">
+                  <div class="event">
+                    <img src="./images/icon-umberella.png">
+                    <span>20%</span>
+                  </div>
+                  <div class="event">
+                    <img src="./images/icon-wind.png">
+                    <span>18km/h</span>
+                  </div>
+                  <div class="event">
+                    <img src="./images/icon-compass.png" class="image">
+                    <span>East</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="forecast-header head2 text-center">
+              <h6>Friday</h6>
+            </div>
+            <div class="card-body d-flex justify-content-center align-items-center flex-column"id="forecast2">
+              <div class="forecast-icon mb-4">
+                <img src="./images/113.png" alt="sun" width="48">
+              </div>
+              <div class="forecast-degree d-flex justify-content-center align-items-center flex-column mb-3" >
+                <h5>39.6<sup>o</sup>C</h5>
+                <span>24.8<sup>o</sup></span>
+              </div>
+              <small class="mb-5">Sunny</small>
+            </div>
+          </div>
+          <div class="card">
+            <div class="forecast-header head3 text-center">
+              <h6>Saturday</h6>
+            </div>
+            <div class="card-body d-flex justify-content-center align-items-center flex-column" id="back">
+              <div class="forecast-icon mb-4">
+                <img src="./images/113.png" alt="sun" width="48">
+              </div>
+              <div class="forecast-degree d-flex justify-content-center align-items-center flex-column mb-3">
+                <h5>39.6<sup>o</sup>C</h5>
+                <span>24.8<sup>o</sup></span>
+              </div>
+              <small class="mb-5">Sunny</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <form action="#" class="subscribe-form">
+              <input type="text" placeholder="Enter your email to subscribe...">
+              <input type="submit" value="Subscribe">
+            </form>
+          </div>
+          <div class="col-md-3 col-md-offset-1">
+            <div class="social-links">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-google-plus"></i></a>
+              <a href="#"><i class="fa fa-pinterest"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <p class="colophon">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+      </div>
+    </footer>
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
